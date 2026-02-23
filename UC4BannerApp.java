@@ -1,17 +1,17 @@
-public class UC4BannerApp {
+/**
+ * Printing OOPS
+ * @author Baradhwaj V
+ * @version 1.1
+ */
 
+public class UC4BannerApp{
     public static void main(String[] args) {
-
-        String[] banner = {
-                "************************",
-                "*                      *",
-                "*    OOPS BANNER APP   *",
-                "*                      *",
-                "************************"
-        };
-
-        for (String line : banner) {
-            System.out.println(line);
-        }
+        System.out.println(String.join(" ", "*****", " ","*****", " ", "*****", " ", "*****"));
+        System.out.println(String.join(" ", "*   *", " ", "*   *", " ", "*   *", " ", "*    "));
+        System.out.println(String.join(" ", "*   *", " ", "*   *", " ", "*   *", " ", "*    "));
+        System.out.println(String.join(" ", "*   *", " ", "*   *", " ", "*****", " ", "*****"));
+        System.out.println(String.join(" ", "*   *", " ", "*   *", " ", "*    ", " ", "    *"));
+        System.out.println(String.join(" ", "*   *", " ", "*   *", " ", "*    ", " ", "    *"));
+        System.out.println(String.join(" ", "*****", " ", "*****", " ", "*    ", " ", "*****"));                
     }
 }
